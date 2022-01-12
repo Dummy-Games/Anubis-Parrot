@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.nasstyo.kofdav.ui.vfdsfdsddfsd"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/gfhjgeweg" />
+    <fragment
+        android:id="@+id/startingFragment"
+
+        android:name="com.nasstyo.kofdav.ui.fsdfgfdhjh"
+        android:label="fragment_starting"
+        tools:layout="@layout/bgfhfhj" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.nasstyo.kofdav.ui.gfgfgfgfdgf"
+        android:label="fragment_about"
+        tools:layout="@layout/fggfdgffd" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.nasstyo.kofdav.ui.gfgfdgdfgfdh"
+        android:label="fragment_game"
+        tools:layout="@layout/ghfggfsfdsfd" />
+</navigation>
